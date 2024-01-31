@@ -156,6 +156,40 @@ section {
     
 }
 
+#resume {
+    background-color: var(--neutral);
+    color: var(--base-100);
+    padding: 70px 0;
+}
+
+#resume h1 {
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+}
+
+#resume p {
+    color: var(--primary);
+    font-size: 25px;
+    margin: 25px 0;
+    font-style: italic;
+}
+
+.view-resume-button {
+    background-color: var(--primary);
+    color: var(--base-100);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in;
+}
+
+.view-resume-button:hover {
+    background-color: var(--accent);
+}
+
+
 .show-all {
     text-decoration: none;
     width: max-content;
