@@ -156,37 +156,35 @@ section {
     
 }
 
-#resume {
+#resume  {
     background-color: var(--neutral);
-    color: var(--base-100);
-    padding: 70px 0;
+    color: var(--secondary);
 }
 
 #resume h1 {
-    font-size: 60px;
-    font-family: "Poppins", sans-serif;
-}
-
-#resume p {
-    color: var(--primary);
-    font-size: 25px;
-    margin: 25px 0;
-    font-style: italic;
+    border-bottom: 5px solid var(--neutral);
+    width: fit-content;
+    margin: auto;
 }
 
 .view-resume-button {
     background-color: var(--primary);
     color: var(--base-100);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+    padding: 12px 25px;
     font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
-    transition: background-color 0.2s ease-in;
+    border: 2px solid var(--base-100);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: inline-block;
 }
 
-.view-resume-button:hover {
+.view-resume-button:hover, .view-resume-button:focus {
     background-color: var(--accent);
+    color: var(--neutral);
+    border-color: var(--secondary);
 }
 
 
